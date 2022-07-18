@@ -12,7 +12,7 @@ public class ListNode {
         if (a.length < 1)
             return;
         this.val = a[0];
-        var p = this;
+        ListNode p = this;
         for (int i = 1; i < a.length; i++) {
             p.next = new ListNode(a[i]);
             p = p.next;
@@ -22,7 +22,7 @@ public class ListNode {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        var p = this;
+        ListNode p = this;
         while (p.next != null) {
             sb.append(p.val + "->");
             p = p.next;

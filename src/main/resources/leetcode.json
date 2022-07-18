@@ -1,0 +1,29 @@
+{
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "D:\\code\\Java\\leetcode",
+    "leetcode.filePath": {
+        "java": {
+            "folder": "src/main/java/leetcode/_${id}",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        },
+        "cpp": {
+            "folder": "cpp",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        }
+    },
+    "leetcode.defaultLanguage": "java",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.hint.commentDescription": false,
+    "leetcode.enableSideMode": true,
+    "leetcode.enableStatusBar": false,
+    "leetcode.showDescription": "In Webview",
+    "leetcode.hideSolved": true,
+    "leetcode.showLocked": true,
+    "leetcode.editor.shortcuts": [
+        "submit",
+        "test",
+        "description",
+        "solution"
+    ]
+}
